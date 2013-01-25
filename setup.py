@@ -21,5 +21,6 @@ setup(
         'Framework :: Django',
     ],
     test_suite='tests.main',
+    py_modules = ['S3'],
     zip_safe = False,
 )
